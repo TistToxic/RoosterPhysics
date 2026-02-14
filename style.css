@@ -1,8 +1,50 @@
-canvas {
-    background-color: black;
+body{
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.tool-btn{
-    width: 75px;
-    height: 75px;
+.header{
+    width: 100%;
+    background-color: rgb(13, 201, 230);
+    text-align: center;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 0px 25px;
+    border: 1px rgb(27, 29, 29) solid;
+}
+
+.play-text{
+    text-decoration: none;
+    color: white;
+    width: 50px;
+    text-align: center;
+    background-color: rgb(25, 127, 205);
+    border-radius: 5px;
+}
+
+.play-text:hover{
+    background-color: rgb(36, 142, 223);
+}
+
+.play-text:active{
+    background-color: rgb(49, 157, 240);
+}
+
+.play-btn{
+    display: flex;
+    padding: 25px 50px;
 }
